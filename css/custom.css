@@ -1,0 +1,173 @@
+/*Table of Contents
+-----------------------------------------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+-----------------------------------------------------------------------*/
+/* General Content
+-----------------------------------------------------------------------*/
+#gradient {
+    background-image: linear-gradient(black, #0E395D);
+    height: 100%;
+}
+div.spacing {
+    margin-bottom: 2em;
+}
+a.btn {
+    color: black;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    width: 50%;
+}
+a.btn:hover {
+    background-color: black;
+    color: white;
+    filter: drop-shadow(8px 8px 10px black);
+    transition-duration: 0.5s;
+}
+button#formBtn {
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    border: none;
+    width: 50%;
+}
+button#formBtn:hover {
+    background-color: white;
+    color: black;
+    filter: drop-shadow(8px 8px 10px black);
+    transition-duration: 0.5s;
+}
+nav.navbar a#conme {
+    padding-right: 0em !important;
+}
+p {
+    margin-bottom: 1.5em;
+}
+/* Typography
+-----------------------------------------------------------------------*/
+body {
+    color: white;
+}
+/* Header & Navigation
+-----------------------------------------------------------------------*/
+div#headerBckgr3 {
+    background-image: url("../images/header1.jpg");
+    background-origin: content-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav.navbar {
+    font-size: 1.5em;
+}
+#navAlign {
+    align-items: center;
+}
+nav.navbar a {
+    padding-right: 2em !important;
+}
+nav.navbar a.active {
+    font-size: 140%;
+    transform: none !important;
+}
+nav.navbar a.active:hover {
+    font-size: 140% !important;
+}
+nav.navbar a:hover {
+    font-size: 120%;
+    transition-duration: 1.5s;
+    text-decoration: underline;
+}
+div#myTogglerNav a{
+    color: white !important;
+}
+/* Images & Media
+-----------------------------------------------------------------------*/
+img#header {
+    max-height: 150px;
+    filter: drop-shadow(2px 2px 5px rgb(141, 140, 140));
+}
+img#header:hover {
+    animation: pulse 1.3s linear infinite;
+}
+img.images {
+    filter: drop-shadow(5px 5px 8px black);
+}
+img.images:hover {
+    filter: drop-shadow(6px 6px 10px white);
+    transition-duration: 1s;
+}
+i.fab {
+    color: white;
+    font-size: 2.2em;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+}
+img#dosome {
+    max-height: 150px !important;
+}
+img.d-block {
+    margin: auto;
+    max-height: 500px;
+}
+/* Footer
+-----------------------------------------------------------------------*/
+p#copyright {
+    font-size: 0.75em;
+}
+/* Media Queries
+-----------------------------------------------------------------------*/
+@keyframes pulse {
+    0% {
+     opacity: 1;
+     transform: scale(1.05);
+    }
+    50% {
+    opacity: 0.6;
+    transform: scale(0.92);
+    }
+    100% {
+    opacity: 0.8;
+    transform: scale(1);
+    }
+}
+@media only screen and (max-width: 768px) {
+    #mobile1 {
+        margin-bottom: 2em;
+    }
+    #mobile2 {
+        margin-bottom: 2em;
+    }
+    #mobile3 {
+        margin-bottom: 2em;
+    }
+    nav.navbar {
+        font-size: 1.2em;
+    }
+    img#conpic {
+        margin-bottom: 1.5em;
+    }
+    img#mapMargin {
+        margin-bottom: 2em;
+    }
+}
+@media only screen and (min-width: 780px) {
+    i.fab:hover {
+        color: black;
+        filter: drop-shadow(8px 8px 10px black);
+        font-size: 2.5em;
+        transform: rotateY(360deg);
+        transition-duration: 2s;
+    }
+    div#divForm {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+}
+
+/* Larger than mobile */
