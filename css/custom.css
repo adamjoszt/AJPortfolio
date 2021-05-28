@@ -43,7 +43,8 @@ button#formBtn:hover {
     transition-duration: 0.5s;
 }
 nav.navbar a#conme {
-    padding-right: 0em !important;
+    padding-right: auto;
+    padding-left: auto;
 }
 p {
     margin-bottom: 1.5em;
